@@ -1,0 +1,319 @@
+@font-face {
+	font-family: "roboto_regular";
+	src: url("fonts/roboto_regular.woff"),
+    url("fonts/roboto_regular.woff2"),
+    url("fonts/roboto_regular.ttf"),
+    url("fonts/roboto_regular.eot");
+}
+
+@font-face {
+	font-family: "roboto_light";
+	src: url("fonts/roboto_light.woff"),
+    url("fonts/roboto_light.woff2"),
+    url("fonts/roboto_light.ttf"),
+    url("fonts/roboto_light.eot");
+}
+
+@font-face {
+	font-family: "Roboto-Thin";
+	src: url("fonts/Roboto-Thin.woff"),
+    url("fonts/Roboto-Thin.ttf"),
+    url("fonts/Roboto-Thin.eot");
+}
+
+@font-face {
+	font-family: "open_sans_light";
+	src: url("fonts/open_sans_light.woff"),
+    url("fonts/open_sans_light.woff2"),
+    url("fonts/open_sans_light.ttf"),
+    url("fonts/open_sans_light.eot");
+}
+
+@font-face {
+	font-family: "OpenSans-Semibold";
+	src: url("fonts/OpenSans-Semibold.ttf");
+}
+
+
+
+/*
+font: [font-style||font-variant||font-weight] font-size [/line-height] font-family | inherit
+
+font-style: normal | italic | oblique | inherit
+font-variant: normal | small-caps | inherit
+font-weight: bold|bolder|lighter|normal|100|200|300|400|500|600|700|800|900 
+font-size: абсолютный размер | относительный размер | значение | проценты | inherit
+line-height: множитель | значение | проценты | normal | inherit 
+font-family: имя шрифта [, имя шрифта[, ...]] | inherit
+font-family: Georgia, 'Times New Roman', Times, serif;
+
+    serif — шрифты с засечками (антиквенные), типа Times;
+    sans-serif — рубленные шрифты (шрифты без засечек или гротески), типичный представитель — Arial;
+    cursive — курсивные шрифты;
+    fantasy — декоративные шрифты;
+    monospace — моноширинные шрифты, ширина каждого символа в таком семействе одинакова (шрифт Courier).
+*/
+
+
+
+
+/*Header 1*/
+.header1 p {
+    font-size: calc(9px + 3 * (100vw / 1920));
+}
+.labelHotLine {
+    font-family: "roboto_regular";
+    color: #303842;
+}
+.valHotLine {
+    font-family: "roboto_light";
+    color: #6b7c93;
+}
+
+@media (max-width: 767px) {
+.header1 p {
+    font-size: calc(9px + (3 + 3 * .7) * ((100vw - 320px) / 1920));
+}   
+}
+
+/*Header 2*/
+
+.logoText a {
+    font:
+        calc(16px + 10 * (100vw / 1920))
+        "open_sans_light", sans-serif; 
+    color: #676c71;
+    text-decoration: none;
+}
+
+@media (max-width: 767px) { 
+.logoText a {
+    font-size: calc(16px + (10 + 10 * .7) * ((100vw - 320px) / 1920));
+}    
+}
+
+.headerLink {
+    font: 12px "roboto_regular", sans-serif; 
+    color: #45505e;
+    text-decoration: none; 
+}
+
+/*Секция Title*/
+
+ h1 {
+     font: 
+         calc(24px + 32 * (100vw / 1920)) / calc(30px + 42* (100vw / 1920))
+         "roboto_light", sans-serif;
+     color: #303842;
+}
+.paralaxContent p {
+    font: 
+        calc(12px + 6 * (100vw / 1920)) / calc(15px + 11* (100vw / 1920))
+        "roboto_light", sans-serif;
+    color: #6b7c93;
+} 
+
+.btnMainScreen a {
+    font: 
+        calc(10px + 4 * (100vw / 1920))
+        "roboto_regular", sans-serif;
+    color: #4caf50;
+}
+@media (max-width: 767px) {
+ 
+ h1 {
+    font-size: calc(24px + (32 + 32 * .7) * ((100vw - 320px) / 1920));
+    line-height: calc(30px + (42 + 42 * .7) * ((100vw - 320px) / 1920));
+}
+.paralaxContent p {
+    font-size: calc(12px + (6 + 6 * .7) * ((100vw - 320px) / 1920));
+    line-height: calc(15px + (11 + 11 * .7) * ((100vw - 320px) / 1920));
+}
+.btnMainScreen a {
+    font-size: calc(10px + (4 + 4 * .7) * ((100vw - 320px) / 1920));
+}
+}
+
+/*Our Customers*/
+
+.descriptionOurCustomers h2 {
+    font:
+        bold
+        calc(12px + 12 * (100vw / 1920)) 
+        "roboto_light", sans-serif;
+    color: #303842;
+}
+.descriptionOurCustomers p {
+    font:
+        calc(10px + 4 * (100vw / 1920))
+        "open_sans_light", sans-serif;
+    color: #8191a6;
+}
+@media (max-width: 599px) {
+    
+ .descriptionOurCustomers h2 {
+        font-size: calc(12px + (12 + 12 * .7) * ((100vw - 320px) / 1920));
+    }
+.descriptionOurCustomers p {
+        font-size: calc(10px + (4 + 4 * .7) * ((100vw - 320px) / 1920));    
+    }
+}
+
+/*Services*/
+
+.sectionTitle {
+    font: 
+        calc(20px + 14 * (100vw / 1920)) / calc(14px + 10 * (100vw / 1920))
+        "roboto_light", sans-serif;
+    color: #303842;
+}
+
+.sectionText,
+.itemText {
+    font:
+        calc(10px + 4 * (100vw / 1920)) / calc(14px + 10 * (100vw / 1920))
+        "roboto_light", sans-serif;
+    color: #8191a6;
+}
+.itemTitle { 
+    font:
+        calc(9px + 4 * (100vw / 1920))
+        "OpenSans-Semibold", sans-serif;
+    color: #51555c;
+    text-transform: uppercase;
+}
+
+@media (max-width: 767px) {
+.sectionText,
+.itemText {
+    font-size: calc(10px + (4 + 4 * .7) * ((100vw - 320px) / 1920));  
+    line-height: calc(14px + (10 + 10 * .7) * ((100vw - 320px) / 1920));
+}
+.itemTitle {
+    font-size: calc(9px + (4 + 4 * .7) * ((100vw - 320px) / 1920));  
+}
+.sectionTitle {
+    font-size: calc(20px + (14 + 14 * .7) * ((100vw - 320px) / 1920));  
+    line-height: calc(20px + (4 + 4 * .7) * ((100vw - 320px) / 1920));  
+}
+}
+
+/* Section Progress*/
+
+.progressValue {
+    font:
+        calc(21px + 23 * (100vw / 1920)) / 24px
+        "Roboto-Thin", sans-serif;
+}
+.color1 {
+    color: #32d5ba;
+}
+.color2 {
+    color: #6dc4f2;
+}
+.color3 {
+    color: #fde495;
+}
+.color4 {
+    color: #f44336;
+}
+.progressAtribute {
+    font: 700
+        calc(9px + 6 * (100vw / 1920)) / 18px
+        "roboto_light", sans-serif;
+    color: #303842;
+    text-transform: uppercase;
+}
+
+@media (max-width: 359px){  
+.progressAtribute {
+    font-size: 8px;
+    line-height: 12px;
+    letter-spacing: .7px;
+}
+.progressValue {
+    font-size: 18px;
+} 
+}
+
+/*Section with Form*/
+
+.atributeForm span {
+    font: calc(8px + 5 * (100vw / 1920)) / 30px
+          "OpenSans-Semibold", sans-serif;
+    color: black;
+    text-transform: uppercase;
+}
+.btnForm {
+    font: calc(10px + 5 * (100vw / 1920)) / 24px
+        "roboto_regular", sans-serif;
+    color: #4caf50;
+    text-transform: uppercase;
+}
+
+.inputRow {
+    font: italic
+        calc(10px + 6 * (100vw / 1920)) / calc(14px + 10 * (100vw / 1920))
+        "roboto_light", sans-serif;
+    color: #8191a6;
+}
+@media (max-width: 767px){  
+.atributeForm span  {
+    letter-spacing: .5px;
+}
+}
+/*Footer*/
+    
+.footerText {
+    font: calc(10px + 4 * (100vw / 1920)) / calc(14px + 10 * (100vw / 1920)) "roboto_light", sans-serif;
+    color: #8191a6;    
+} 
+
+.footerLinks {
+    font: 
+        calc(8px + 4 * (100vw / 1920)) / 28px
+        "roboto_regular", sans-serif;
+    color: #303842;
+    text-transform: uppercase;
+}
+
+.copyright {
+    font: calc(10px + 4 * (100vw / 1920)) / calc(15px + 13 * (100vw / 1920)) "roboto_light", sans-serif;
+    color: #8191a6;    
+}
+.titleCol {
+    font: 
+        calc(10px + 4 * (100vw / 1920)) / 59px
+        "roboto_regular", sans-serif;
+    color: #303842;
+    text-transform: uppercase;
+}
+
+.listColItem a {
+    font: 
+        calc(10px + 4 * (100vw / 1920)) / 34px
+        "roboto_regular", sans-serif;
+    color: #8191a6;
+}
+
+
+@media (max-width: 599px) {
+    .titleCol {
+        line-height: 40px;
+        
+    }
+    
+    .listColItem a {
+        line-height: 27px;
+        
+    }
+
+}
+
+
+
+
+
+
+
+
