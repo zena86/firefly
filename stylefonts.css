@@ -34,30 +34,8 @@
 	src: url("fonts/OpenSans-Semibold.ttf");
 }
 
-
-
-/*
-font: [font-style||font-variant||font-weight] font-size [/line-height] font-family | inherit
-
-font-style: normal | italic | oblique | inherit
-font-variant: normal | small-caps | inherit
-font-weight: bold|bolder|lighter|normal|100|200|300|400|500|600|700|800|900 
-font-size: абсолютный размер | относительный размер | значение | проценты | inherit
-line-height: множитель | значение | проценты | normal | inherit 
-font-family: имя шрифта [, имя шрифта[, ...]] | inherit
-font-family: Georgia, 'Times New Roman', Times, serif;
-
-    serif — шрифты с засечками (антиквенные), типа Times;
-    sans-serif — рубленные шрифты (шрифты без засечек или гротески), типичный представитель — Arial;
-    cursive — курсивные шрифты;
-    fantasy — декоративные шрифты;
-    monospace — моноширинные шрифты, ширина каждого символа в таком семействе одинакова (шрифт Courier).
-*/
-
-
-
-
 /*Header 1*/
+
 .header1 p {
     font-size: calc(9px + 3 * (100vw / 1920));
 }
@@ -296,18 +274,15 @@ font-family: Georgia, 'Times New Roman', Times, serif;
     color: #8191a6;
 }
 
-
 @media (max-width: 599px) {
     .titleCol {
         line-height: 40px;
         
     }
-    
     .listColItem a {
         line-height: 27px;
         
     }
-
 }
 
 
