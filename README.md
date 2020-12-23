@@ -21,7 +21,7 @@ CSS3     |            |Adobe Photoshop|            |
 &nbsp;
 ![Screenshort 1](/images/imgreadme/screen2.png)
 
-**2. Контактная форма*
+**2. Контактная форма**
 
 ![Screenshort 1](/images/imgreadme/screen-contact.png)
 
