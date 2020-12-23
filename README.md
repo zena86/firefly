@@ -1,18 +1,11 @@
-# firefly
- 
-<h1 align="center">Pinball"</h1>
+<h1 align="center">Лендинг "Firefly"</h1>
 
-DEMO [Pinball](https://zena86.github.io/pinball/)
+DEMO [Firefly](https://zena86.github.io/firefly/)
 
-Языки    | Библиотеки | Инструменты   |Методология |Прочие
----------|------------|---------------|------------|-----------
-HTML5    |jQuery      |Brackets       |БЭМ         |CSS flexbox
-CSS3     |Masonry     |Adobe Photoshop|            |
-
-Бургер-меню
-Звездный рейтинг
-Ленивая загрузка
-Масонри
+Языки    | Библиотеки | Инструменты   |Прочие      |
+---------|------------|---------------|------------|
+HTML5    |jQuery      |Brackets       |CSS flexbox |
+CSS3     |            |Adobe Photoshop|            |
 
 
 Адаптивность реализована за счет:
@@ -20,23 +13,23 @@ CSS3     |Masonry     |Adobe Photoshop|            |
 * гибкости верстки
 * настраиваемой структуры макета страницы
 
-
-**1. Блоки контента выводятся  в компактно-сложенном виде и располагаются максимально экономя пространство (Masonry)**
+**1. Параллакс эффект, полноэкранный (fullscreen) блок на главной странице**
 
 ![Screenshort 1](/images/imgreadme/screen-main.png)
-
-
-**2. Ленивая загрузка контента при скроллинге, звездный рейтинг**
-
+&nbsp;
+![Screenshort 1](/images/imgreadme/screen1.png)
+&nbsp;
 ![Screenshort 1](/images/imgreadme/screen2.png)
 
+**2. Контактная форма*
 
-**3. Адаптация до 320px, бургер-меню**
+![Screenshort 1](/images/imgreadme/screen-contact.png)
 
-![Screenshort 1](/images/imgreadme/screen1024.png)    |![Screenshort 1](/images/imgreadme/screen768.png) 
-------------------------------------------------------|------------------------------------------------------
+
+**3. Бургер-меню**
+
 ![Screenshort 1](/images/imgreadme/screen-mobile1.png)|![Screenshort 1](/images/imgreadme/screen-mobile2.png)
-
+------------------------------------------------------|------------------------------------------------------
 
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
