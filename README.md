@@ -2,11 +2,11 @@
 
 DEMO [Firefly](https://zena86.github.io/firefly/)
 
-Языки    | Библиотеки | Инструменты   |Прочие      |
----------|------------|---------------|------------|
-HTML5    |jQuery      |Brackets       |CSS flexbox |
-CSS3     |            |Adobe Photoshop|            |
-
+Языки     | Библиотеки | Инструменты   |Прочие      |
+----------|------------|---------------|------------|
+HTML5     |jQuery      |Brackets       |CSS flexbox |
+CSS3      |            |Adobe Photoshop|            |
+JavaScript|            |               |            |
 
 Адаптивность реализована за счет:
 * медиазапросов
